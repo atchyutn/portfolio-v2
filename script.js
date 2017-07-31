@@ -1,6 +1,6 @@
 // Code goes here
 
-//typewrite script
+//home typewrite effect script
   var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
@@ -59,5 +59,7 @@
     };
       
 $(document).ready(function(){
-  
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
 });

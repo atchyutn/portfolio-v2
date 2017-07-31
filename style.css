@@ -1,5 +1,7 @@
 /* Styles go here */
 
+
+
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -14,6 +16,12 @@ body{
 
 .navbar ul  span{
   margin: 5px;
+}
+
+.navbar ul  li a:hover{
+  color: #c15554 !important;
+  background-color: white !important; 
+  font-weight: bold;
 }
 
 .nav-link{
@@ -43,4 +51,60 @@ body{
 .home-subheading{
   font-size: 3vw;
   text-align: center;
+}
+
+#about-me{
+  padding-top: 5rem;
+}
+
+.heading{
+  color: #c15554;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+#about-me .text{
+  padding-bottom: 1rem;
+}
+
+#about-me .btn-primary{
+  background-color: #c15554 !important;
+  border-color: #c15554;
+}
+
+#about-me .btn-primary:hover{
+  background-color: white !important;
+  border-color: #c15554;
+  color: #c15554;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#about-me .profile-pic{
+  border: 10px solid #c15554;
+}
+
+#about-me .social-icon{
+  color: #c15554;
+  padding-left: 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+
+#experince{
+  padding-top: 5rem;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+  [class*="col-"] {
+      margin-bottom: 2rem;
+  }
+
 }
