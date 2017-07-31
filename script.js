@@ -63,5 +63,14 @@ $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip()
   })
 
+
+  //Education Section
+  $(".list-group-item").hover(
+    function() {
+      $( this ).addClass( "active" );
+    }, function() {
+      $( this ).removeClass( "active" );
+    }
+  );
   
 });

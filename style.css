@@ -98,8 +98,17 @@ body{
   cursor: pointer;
 }
 
-#experince{
+#experience{
   padding-top: 5rem;
+}
+
+#education{
+  padding-top: 5rem;
+}
+
+#education .active{
+  background-color: #c15554;
+  border-color: #c15554;
 }
 
 
