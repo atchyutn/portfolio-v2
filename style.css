@@ -1,0 +1,46 @@
+/* Styles go here */
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+ .navbar{
+  font-size: 1rem;
+  background-color: #c15554 !important;
+  color: white !important;
+   /* padding-left: 10% !important;
+  padding-right: 10% !important;  */
+} 
+
+.navbar ul  span{
+  margin: 5px;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.navbar-brand{
+  font-size: 2rem !important;
+}
+
+#home{
+  /* display: flex; */
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white; 
+  background: url("./images/home-img-3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.home-heading{
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+.home-subheading{
+  font-size: 3vw;
+  text-align: center;
+}
