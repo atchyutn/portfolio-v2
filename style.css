@@ -6,6 +6,32 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+
+.heading{
+  color: #c15554;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+.side-heading{
+  /* color: #c15554; */
+  font-weight: bold;
+}
+
+.btn-primary{
+  background-color: #c15554 !important;
+  border-color: #c15554 !important;
+}
+
+.btn-primary:hover{
+  background-color: white !important;
+  border-color: #c15554;
+  color: #c15554 !important;
+  cursor: pointer;
+  font-weight: bold;
+}
+
  .navbar{
   font-size: 1rem;
   background-color: #c15554 !important;
@@ -57,28 +83,8 @@ body{
   padding-top: 5rem;
 }
 
-.heading{
-  color: #c15554;
-  font-size: 2rem;
-  padding-bottom: 1rem;
-  font-weight: bold;
-}
-
 #about-me .text{
   padding-bottom: 1rem;
-}
-
-#about-me .btn-primary{
-  background-color: #c15554 !important;
-  border-color: #c15554;
-}
-
-#about-me .btn-primary:hover{
-  background-color: white !important;
-  border-color: #c15554;
-  color: #c15554;
-  cursor: pointer;
-  font-weight: bold;
 }
 
 #about-me .profile-pic{
@@ -92,7 +98,6 @@ body{
   cursor: pointer;
 }
 
-
 #experince{
   padding-top: 5rem;
 }
@@ -100,7 +105,7 @@ body{
 
 
 
-
+/* reponsive Code Section */
 @media (max-width: 768px) {
 
   [class*="col-"] {
