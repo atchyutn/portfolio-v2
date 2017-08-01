@@ -59,10 +59,24 @@
     };
       
 $(document).ready(function(){
+
+  $('body').scrollspy({ 
+    target: '#navScrollSpy' 
+  });
+
+  //for smooth scroling effect
+  $('a').click(function() {
+    console.log('link clicked');
+    $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+    }, 1000);
+    return false;
+  });
+
+  //for initiating tool tips
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
-  })
-
+  });
 
   //Education Section
   $(".list-group-item").hover(
