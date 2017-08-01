@@ -10,6 +10,24 @@ body{
   position: relative;
 }
 
+body::-webkit-scrollbar-track
+    {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+    }
+
+body::-webkit-scrollbar
+  {
+    width: 10px;
+    background-color: #F5F5F5;
+  }
+
+body::-webkit-scrollbar-thumb
+  {
+    background-color: #c15554;
+    border: 2px solid #c15554;
+  }
+
 
 .heading{
   color: #c15554;
@@ -149,18 +167,11 @@ body{
   background-color: #c15554;
   padding-top: 5rem;
   margin-top: 5rem;
-}
-
-#footer #social-icons{
   color: white !important;
-  padding-left: 0.5rem;
-  font-size: 2rem;
-  cursor: pointer;
 }
 
 #copy-right{
   text-align: center;
   font-size: 0.8rem;
-  color: white;
   margin-bottom: 2rem;
 }
