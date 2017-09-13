@@ -1,6 +1,6 @@
 /* Styles go here */
 
-
+/*main-color: #cf4647*/
 
 body{
   font-family: 'Roboto', sans-serif;
@@ -24,13 +24,13 @@ body::-webkit-scrollbar
 
 body::-webkit-scrollbar-thumb
   {
-    background-color: #c15554;
-    border: 2px solid #c15554;
+    background-color: #cf4647;
+    border: 2px solid #cf4647;
   }
 
 
 .heading{
-  color: #c15554;
+  color: #cf4647;
   font-size: 2rem;
   padding-bottom: 1rem;
   font-weight: bold;
@@ -41,14 +41,14 @@ body::-webkit-scrollbar-thumb
 }
 
 .btn-primary{
-  background-color: #c15554 !important;
-  border-color: #c15554 !important;
+  background-color: #cf4647 !important;
+  border-color: #cf4647 !important;
 }
 
 .btn-primary:hover{
   background-color: white !important;
-  border-color: #c15554;
-  color: #c15554 !important;
+  border-color: #cf4647;
+  color: #cf4647 !important;
   cursor: pointer;
   font-weight: bold;
   -webkit-transform: scale(1.1);
@@ -58,7 +58,7 @@ body::-webkit-scrollbar-thumb
 
  .navbar{
   font-size: 1rem;
-  background-color: #c15554 !important;
+  background-color: #cf4647 !important;
   color: white !important;
    /* padding-left: 10% !important;
   padding-right: 10% !important;  */
@@ -69,13 +69,13 @@ body::-webkit-scrollbar-thumb
 }
 
 .navbar ul  li a:hover{
-  color: #c15554 !important;
+  color: #cf4647 !important;
   background-color: white !important; 
   font-weight: bold;
 }
 
 .navbar ul  li .active{
-  color: #c15554 !important;
+  color: #cf4647 !important;
   background-color: white !important; 
   font-weight: bold;
 }
@@ -118,11 +118,11 @@ body::-webkit-scrollbar-thumb
 }
 
 #about-me .profile-pic{
-  border: 10px solid #c15554;
+  border: 10px solid #cf4647;
 }
 
 #about-me .social-icon{
-  color: #c15554;
+  color: #cf4647;
   padding-left: 0.5rem;
   font-size: 2rem;
   cursor: pointer;
@@ -143,8 +143,8 @@ body::-webkit-scrollbar-thumb
 }
 
 #education .active{
-  background-color: #c15554;
-  border-color: #c15554;
+  background-color: #cf4647;
+  border-color: #cf4647;
 }
 
 #portfolio{
@@ -164,7 +164,7 @@ body::-webkit-scrollbar-thumb
 }
 
 #footer{
-  background-color: #c15554;
+  background-color: #cf4647;
   padding-top: 5rem;
   margin-top: 5rem;
   color: white !important;
