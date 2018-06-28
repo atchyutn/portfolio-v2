@@ -15,18 +15,5 @@ jobs:
         name: Deploy to host if branch is master
         command: 
           - |
-        if [ "${CIRCLE_BRANCH}" == "auto-deploy" ]; then
+        true
           echo "checked the barach"
-          # #install git-ftp
-          # apt-get install git-ftp 
-          # # Setup
-          # git config git-ftp.url $ftp_host
-          # git config git-ftp.user $ftp_user_id
-          # git config git-ftp.password $ftp_pass
-          # # Or if the files are already there
-          # git ftp catchup
-          # #push to server
-          # git ftp push
-        else
-          echo "Not master branch so not deploying"
-        fi
