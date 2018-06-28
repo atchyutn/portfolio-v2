@@ -1,9 +1,9 @@
-#Repo Status
+## Repo Status
 [![CircleCI](https://circleci.com/gh/atchyutn/portfolio-v2/tree/master.svg?style=svg)](https://circleci.com/gh/atchyutn/portfolio-v2/tree/master)
 
-# http://www.atchyutn.com
+## Host Location
 
-This is the source code to my personal website which is hosted at http:www.atchyutn.com
+This is the source code to my personal website which is hosted at http://www.atchyutn.com
 
 ## How it's built
 
