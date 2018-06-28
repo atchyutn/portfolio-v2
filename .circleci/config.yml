@@ -4,12 +4,11 @@ jobs:
     docker:
       - image: debian:stretch
     steps:
-      - checkout
-      - checkout
+      - checkout:
       - deploy:
       name: Deploy to host if branch is master
       command: |
-      if [ "${CIRCLE_BRANCH}" == "master" ]; then
+      if [ "${CIRCLE_BRANCH}" == "auto-deploy" ]; then
         apt-get update
         apt-get -qq install git-ftp
         echo "'_$(git status -uno --porcelain | wc -l)_'"
