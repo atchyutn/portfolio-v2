@@ -14,7 +14,7 @@ jobs:
               echo "'_$(git status -uno --porcelain | wc -l)_'"
               git status -uno --porcelain
               echo "Initiating Push site:atchyutn"
-              git ftp init --user "u223156778" --passwd "bhavadev_1" ftp://ftp.atchyutn.com
+              git ftp push --user "u223156778" --passwd "bhavadev_1" ftp://ftp.atchyutn.com
             else
               echo "Not master branch so not deploying"
             fi   
