@@ -14,6 +14,4 @@ jobs:
       - deploy:
         name: Deploy to host if branch is master
         command: 
-          - |
-        true
           echo "checked the barach"
