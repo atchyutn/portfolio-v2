@@ -13,7 +13,6 @@ jobs:
               apt-get -qq install git-ftp
               echo "'_$(git status -uno --porcelain | wc -l)_'"
               git status -uno --porcelain
-              echo "\n\n\n"
               echo "Initiating Push site:atchyutn"
               git ftp push --user "${ftp_user_id}" --passwd "${ftp_pass}" $ftp_host
             else
