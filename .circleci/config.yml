@@ -5,6 +5,7 @@ jobs:
        - image: circleci/node:latest
      steps:
        - checkout
+       - run: npm install gulp
        - run: npm install
        - run: npx gulp build
        - run: node .circleci/deploy.js
