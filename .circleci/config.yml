@@ -14,6 +14,7 @@ jobs:
       - deploy:
         name: Deploy to host if branch is master
         command: 
+          - |
         if [ "${CIRCLE_BRANCH}" == "auto-deploy" ]; then
 
           echo "checked the barach"
